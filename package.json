@@ -1,0 +1,9 @@
+{
+  "name": "writeit",
+  "version": "1.0.0",
+  "description": "Note taking browser extension and application.",
+  "repository": "https://github.com/squxq/WriteIt",
+  "author": "Francisco Tomás",
+  "license": "GPL-3.0",
+  "private": true
+}
