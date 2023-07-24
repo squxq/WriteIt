@@ -5,5 +5,19 @@
   "repository": "https://github.com/squxq/WriteIt",
   "author": "Francisco Tomás",
   "license": "GPL-3.0",
-  "private": true
+  "private": true,
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "Please use Yarn as your package manager instead."
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "commitlint": "commitlint --from=HEAD"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "husky": "^8.0.3"
+  }
 }
